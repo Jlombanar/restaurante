@@ -1,0 +1,14 @@
+.contenedor {
+display: grid;
+grid-template-columns: 1fr 150px 1fr ;
+grid-template-rows:150px 150px;
+gap: 16px;
+}
+.item {
+background-color: #a3d8ff;
+padding: 50px;
+text-align: center;
+font-weight: bold;
+border-radius: 12px;
+margin-top: 10px;
+}
