@@ -30,10 +30,10 @@ header {
 
 /* Contenedor de la navegación */
 .navbar {
-    display: flex;
+    display: flex;/* Activa Flexbox para organizar los elementos */
     justify-content: space-between; /* Separa logo y menú */
     align-items: center; /* Centra verticalmente */
-    padding: 1rem 5%;
+    padding: 16px 5%;
     max-width: 1200px;
     margin: 0 auto; /* Centra el navbar */
 }
@@ -41,21 +41,21 @@ header {
 /* Logo del sitio */
 .logo h1 {
     color: white;
-    font-size: 1.8rem;
+    font-size: 29px;
 }
 
 /* Lista de enlaces de navegación */
 .nav-links {
     display: flex;
     list-style: none; /* Quita los puntos de la lista */
-    gap: 2rem; /* Espacio entre enlaces */
+    gap: 32px; /* Espacio entre enlaces */
 }
 
 /* Enlaces individuales del menú */
 .nav-links a {
     color: white;
     text-decoration: none; /* Quita el subrayado */
-    font-weight: bold;
+    font-weight: bold; /* colocar letra negrita */
     transition: color 0.3s ease; /* Transición suave al hacer hover */
 }
 
@@ -79,22 +79,22 @@ header {
 
 /* Título principal del hero */
 .hero-content h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 48px;
+    margin-bottom: 16px;
 }
 
 /* Subtítulo del hero */
 .hero-content p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 32px;
 }
 
 /* Botón de llamada a la acción */
 .cta-button {
     background-color: #ff6b35;
     color: white;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
+    padding: 16px 32px; /*padding: arriba/abajo   izquierda/derecha */
+    font-size: 20px;
     border: none;
     border-radius: 5px; /* Esquinas redondeadas */
     cursor: pointer;
@@ -109,7 +109,7 @@ header {
 /* ===== SECCIÓN DEL MENÚ ===== */
 /* Contenedor principal del menú */
 .menu-section {
-    padding: 4rem 5%;
+    padding: 64px 5%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -117,8 +117,8 @@ header {
 /* Títulos de sección */
 .section-title {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 40px;
+    margin-bottom: 48px;
     color: #ff6b35;
 }
 
@@ -126,7 +126,7 @@ header {
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid responsivo */
-    gap: 2rem; /* Espacio entre tarjetas */
+    gap: 32px; /* Espacio entre tarjetas */
 }
 
 /* ===== TARJETAS DE PRODUCTOS ===== */
@@ -154,20 +154,21 @@ header {
 
 /* Contenido de la tarjeta */
 .card-content {
-    padding: 1.5rem;
+    padding: 24px;
+    text-align: center;
 }
 
 /* Título del producto */
 .card-content h3 {
     color: #ff6b35;
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 8px;
+    font-size: 24px;
 }
 
 /* Descripción del producto */
 .card-content p {
     color: #666;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 /* Precio del producto */
